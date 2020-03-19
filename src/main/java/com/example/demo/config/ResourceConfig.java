@@ -33,6 +33,7 @@ public class ResourceConfig extends WebSecurityConfigurerAdapter {
 		LdapAuthenticationProvider provider = new LdapAuthenticationProvider(customBindAuthenticator(),
 				LdapAuthoritiesPopulator());
 		System.out.println("ok");
+		System.out.println("ok1");
 		return provider;
 	}
 
